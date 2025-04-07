@@ -1,0 +1,23 @@
+{"time":"2025-04-07T10:13:04.1258229-06:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-04-07T10:13:04.1258229-06:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\PC MASTER\\desktop\\ucreativa-ai\\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\\S02\\hydra_wandb\\wandb\\run-20250407_101304-xo02ev8t\\logs\\debug-core.log"}
+{"time":"2025-04-07T10:13:04.3273815-06:00","level":"INFO","msg":"created new stream","id":"xo02ev8t"}
+{"time":"2025-04-07T10:13:04.3273815-06:00","level":"INFO","msg":"stream: started","id":"xo02ev8t"}
+{"time":"2025-04-07T10:13:04.3273815-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xo02ev8t"}}
+{"time":"2025-04-07T10:13:04.3273815-06:00","level":"INFO","msg":"sender: started","stream_id":"xo02ev8t"}
+{"time":"2025-04-07T10:13:04.3273815-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xo02ev8t"}}
+{"time":"2025-04-07T10:13:04.686156-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T10:13:04.9562517-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:13:43.5063243-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:13:43.5108622-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:13:45.7098522-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:13:45.7289646-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:13:48.35356-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:13:48.3645533-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T10:13:48.3650518-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T10:13:49.3678371-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.7597956}],"total_operations":1}}
+{"time":"2025-04-07T10:13:52.3835182-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T10:13:53.7095869-06:00","level":"INFO","msg":"stream: closing","id":"xo02ev8t"}
+{"time":"2025-04-07T10:13:53.7095869-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xo02ev8t"}}
+{"time":"2025-04-07T10:13:53.7095869-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xo02ev8t"}}
+{"time":"2025-04-07T10:13:53.7095869-06:00","level":"INFO","msg":"sender: closed","stream_id":"xo02ev8t"}
+{"time":"2025-04-07T10:13:53.7095869-06:00","level":"INFO","msg":"stream: closed","id":"xo02ev8t"}

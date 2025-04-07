@@ -1,0 +1,77 @@
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Configure stats pid to 23704
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\.config\wandb\settings
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\settings
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-04-07 10:05:18,782 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:_log_setup():534] Logging user logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\run-20250407_100518-w6e3uc6n\logs\debug.log
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:_log_setup():535] Logging internal logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\run-20250407_100518-w6e3uc6n\logs\debug-internal.log
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:_jupyter_setup():480] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025FC428EA40>
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:init():621] calling init triggers
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'_metadata': ContainerMetadata(ref_type=typing.Any, object_type=<class 'dict'>, optional=True, key=None, flags={}, flags_root=False, resolver_cache=defaultdict(<class 'dict'>, {}), key_type=typing.Any, element_type=typing.Any), '_parent': None, '_flags_cache': {'struct': None}, '_content': {'project': {'name': 'my_hydra_wandb_project', 'run_name': 'test_run'}, 'model': {'type': 'logistic', 'C': 1.0, 'max_iter': 100}}}
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:init():671] starting backend
+2025-04-07 10:05:18,783 INFO    MainThread:23704 [wandb_init.py:init():675] sending inform_init request
+2025-04-07 10:05:18,786 INFO    MainThread:23704 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-04-07 10:05:18,786 INFO    MainThread:23704 [wandb_init.py:init():688] backend started and connected
+2025-04-07 10:05:18,789 ERROR   MainThread:23704 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 693, in init
+    run = Run(
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 599, in __init__
+    self._init(
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 719, in _init
+    self._config._update(config, ignore_locked=True)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_config.py", line 180, in _update
+    sanitized = self._sanitize_dict(
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_config.py", line 267, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_config.py", line 285, in _sanitize
+    val = json_friendly_val(val)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\util.py", line 674, in json_friendly_val
+    converted = asdict(val)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\dataclasses.py", line 1239, in asdict
+    return _asdict_inner(obj, dict_factory)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\dataclasses.py", line 1246, in _asdict_inner
+    value = _asdict_inner(getattr(obj, f.name), dict_factory)
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\dataclasses.py", line 1276, in _asdict_inner
+    return type(obj)((_asdict_inner(k, dict_factory),
+TypeError: first argument must be callable or None
+2025-04-07 10:08:49,075 INFO    MainThread:23704 [wandb_settings.py:_apply_login():1972] Applying login settings: {}
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Configure stats pid to 23704
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\.config\wandb\settings
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\settings
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-04-07 10:08:49,080 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-04-07 10:08:49,082 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-07 10:08:49,082 INFO    MainThread:23704 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:_log_setup():534] Logging user logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\run-20250407_100849-8huvdv46\logs\debug.log
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:_log_setup():535] Logging internal logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOM햀ICO\S02\hydra_wandb\wandb\run-20250407_100849-8huvdv46\logs\debug-internal.log
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:init():621] calling init triggers
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'project': {'name': 'my_hydra_wandb_project', 'run_name': 'test_run'}, 'model': {'type': 'logistic', 'C': 1.0, 'max_iter': 100}}
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:init():671] starting backend
+2025-04-07 10:08:49,083 INFO    MainThread:23704 [wandb_init.py:init():675] sending inform_init request
+2025-04-07 10:08:49,085 INFO    MainThread:23704 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-04-07 10:08:49,085 INFO    MainThread:23704 [wandb_init.py:init():688] backend started and connected
+2025-04-07 10:08:49,088 INFO    MainThread:23704 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2025-04-07 10:08:49,088 INFO    MainThread:23704 [wandb_run.py:_label_probe_notebook():1352] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-07 10:08:49,088 INFO    MainThread:23704 [wandb_init.py:init():783] updated telemetry
+2025-04-07 10:08:49,166 INFO    MainThread:23704 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2025-04-07 10:10:19,938 ERROR   MainThread:23704 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2025-04-07 10:10:19,938 ERROR   MainThread:23704 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+  File "C:\Users\PC MASTER\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2025-04-07 10:14:57,355 WARNING MsgRouterThr:23704 [router.py:message_loop():77] message_loop has been closed
+2025-04-07 10:14:57,355 WARNING MsgRouterThr:23704 [router.py:message_loop():77] message_loop has been closed

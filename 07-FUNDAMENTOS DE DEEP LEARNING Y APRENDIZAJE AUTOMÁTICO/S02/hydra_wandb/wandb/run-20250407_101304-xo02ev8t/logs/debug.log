@@ -1,0 +1,47 @@
+2025-04-07 10:13:04,120 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-04-07 10:13:04,120 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Configure stats pid to 9272
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\.config\wandb\settings
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Loading settings from C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\S02\hydra_wandb\wandb\settings
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-07 10:13:04,121 INFO    MainThread:9272 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:_log_setup():534] Logging user logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\S02\hydra_wandb\wandb\run-20250407_101304-xo02ev8t\logs\debug.log
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:_log_setup():535] Logging internal logs to C:\Users\PC MASTER\desktop\ucreativa-ai\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\S02\hydra_wandb\wandb\run-20250407_101304-xo02ev8t\logs\debug-internal.log
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:_jupyter_setup():480] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001FA52C089D0>
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:init():621] calling init triggers
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'project': {'name': 'wandb_sklearn_example', 'run_name': 'run_logistic_regression'}, 'model': {'C': 1.0, 'max_iter': 200}}
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:init():671] starting backend
+2025-04-07 10:13:04,122 INFO    MainThread:9272 [wandb_init.py:init():675] sending inform_init request
+2025-04-07 10:13:04,123 INFO    MainThread:9272 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-04-07 10:13:04,123 INFO    MainThread:9272 [wandb_init.py:init():688] backend started and connected
+2025-04-07 10:13:04,127 INFO    MainThread:9272 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2025-04-07 10:13:04,127 INFO    MainThread:9272 [wandb_run.py:_label_probe_notebook():1352] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-07 10:13:04,127 INFO    MainThread:9272 [wandb_init.py:init():783] updated telemetry
+2025-04-07 10:13:04,281 INFO    MainThread:9272 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2025-04-07 10:13:04,679 INFO    MainThread:9272 [wandb_init.py:init():867] starting run threads in backend
+2025-04-07 10:13:04,951 INFO    MainThread:9272 [wandb_run.py:_console_start():2463] atexit reg
+2025-04-07 10:13:04,951 INFO    MainThread:9272 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2025-04-07 10:13:04,951 INFO    MainThread:9272 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2025-04-07 10:13:04,951 INFO    MainThread:9272 [wandb_run.py:_redirect():2401] Redirects installed.
+2025-04-07 10:13:04,954 INFO    MainThread:9272 [wandb_init.py:init():911] run started, returning control to user process
+2025-04-07 10:13:04,956 INFO    MainThread:9272 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-07 10:13:04,956 INFO    MainThread:9272 [wandb_init.py:_pause_backend():445] pausing backend
+2025-04-07 10:13:43,505 INFO    MainThread:9272 [wandb_init.py:_resume_backend():450] resuming backend
+2025-04-07 10:13:43,509 INFO    MainThread:9272 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-07 10:13:43,509 INFO    MainThread:9272 [wandb_init.py:_pause_backend():445] pausing backend
+2025-04-07 10:13:45,709 INFO    MainThread:9272 [wandb_init.py:_resume_backend():450] resuming backend
+2025-04-07 10:13:45,728 INFO    MainThread:9272 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-07 10:13:45,728 INFO    MainThread:9272 [wandb_init.py:_pause_backend():445] pausing backend
+2025-04-07 10:13:48,353 INFO    MainThread:9272 [wandb_init.py:_resume_backend():450] resuming backend
+2025-04-07 10:13:48,363 INFO    MainThread:9272 [wandb_run.py:_finish():2158] finishing run angelortizv-tecnologico-de-costa-rica/wandb_sklearn_example/xo02ev8t
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [jupyter.py:save_history():459] not saving jupyter history
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [wandb_init.py:_jupyter_teardown():462] cleaning up jupyter logic
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [wandb_run.py:_restore():2408] restore
+2025-04-07 10:13:48,364 INFO    MainThread:9272 [wandb_run.py:_restore():2414] restore done
+2025-04-07 10:13:53,700 INFO    MainThread:9272 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2025-04-07 10:13:53,700 INFO    MainThread:9272 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2025-04-07 10:13:53,706 INFO    MainThread:9272 [wandb_run.py:_footer_sync_info():3934] logging synced files

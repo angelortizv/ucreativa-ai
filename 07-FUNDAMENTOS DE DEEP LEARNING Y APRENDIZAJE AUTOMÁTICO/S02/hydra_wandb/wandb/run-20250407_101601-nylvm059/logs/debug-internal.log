@@ -1,0 +1,23 @@
+{"time":"2025-04-07T10:16:01.0733235-06:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-04-07T10:16:01.0733235-06:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\PC MASTER\\desktop\\ucreativa-ai\\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\\S02\\hydra_wandb\\wandb\\run-20250407_101601-nylvm059\\logs\\debug-core.log"}
+{"time":"2025-04-07T10:16:01.2826328-06:00","level":"INFO","msg":"created new stream","id":"nylvm059"}
+{"time":"2025-04-07T10:16:01.2826328-06:00","level":"INFO","msg":"stream: started","id":"nylvm059"}
+{"time":"2025-04-07T10:16:01.2826328-06:00","level":"INFO","msg":"sender: started","stream_id":"nylvm059"}
+{"time":"2025-04-07T10:16:01.2826328-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nylvm059"}}
+{"time":"2025-04-07T10:16:01.2826328-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nylvm059"}}
+{"time":"2025-04-07T10:16:01.5765114-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T10:16:01.7682729-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:08.9096665-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:08.9182235-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:12.1979547-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:12.3043343-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:14.7069382-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:14.7089259-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T10:16:14.7104182-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T10:16:15.7104736-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.8905408,"subtasks":[{"desc":"requirements.frozen.txt","runtime_seconds":0.0399174,"progress":"4.9KB/4.9KB"},{"desc":"wandb-job.json","runtime_seconds":0.0399174,"progress":"980B/980B"}]}],"total_operations":1}}
+{"time":"2025-04-07T10:16:16.8600884-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T10:16:18.1004414-06:00","level":"INFO","msg":"stream: closing","id":"nylvm059"}
+{"time":"2025-04-07T10:16:18.1004414-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nylvm059"}}
+{"time":"2025-04-07T10:16:18.1004414-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nylvm059"}}
+{"time":"2025-04-07T10:16:18.1004414-06:00","level":"INFO","msg":"sender: closed","stream_id":"nylvm059"}
+{"time":"2025-04-07T10:16:18.1009507-06:00","level":"INFO","msg":"stream: closed","id":"nylvm059"}

@@ -1,0 +1,41 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "3.10.5",
+  "startedAt": "2025-04-07T16:16:42.517386Z",
+  "program": "07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO/S02/hydra_wandb/wandb_epochs_tutorial.ipynb",
+  "git": {
+    "remote": "https://github.com/angelortizv/ucreativa-ai.git",
+    "commit": "3ea72ae8abd411abf9f8cf97b8d05d276431e6c6"
+  },
+  "email": "angelo2898@gmail.com",
+  "root": "C:\\Users\\PC MASTER\\desktop\\ucreativa-ai\\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\\S02\\hydra_wandb",
+  "host": "DESKTOP-6VPT4OL",
+  "username": "PC MASTER",
+  "executable": "C:\\Users\\PC MASTER\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "511266779136",
+      "used": "428487593984"
+    }
+  },
+  "memory": {
+    "total": "34121584640"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "memoryTotal": "8589934592",
+      "cudaCores": 4864,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

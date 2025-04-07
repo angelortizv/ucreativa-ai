@@ -1,0 +1,23 @@
+{"time":"2025-04-07T10:16:42.5168877-06:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-04-07T10:16:42.5168877-06:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\PC MASTER\\desktop\\ucreativa-ai\\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\\S02\\hydra_wandb\\wandb\\run-20250407_101642-ie2ggjot\\logs\\debug-core.log"}
+{"time":"2025-04-07T10:16:42.726699-06:00","level":"INFO","msg":"created new stream","id":"ie2ggjot"}
+{"time":"2025-04-07T10:16:42.726699-06:00","level":"INFO","msg":"stream: started","id":"ie2ggjot"}
+{"time":"2025-04-07T10:16:42.726699-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ie2ggjot"}}
+{"time":"2025-04-07T10:16:42.726699-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ie2ggjot"}}
+{"time":"2025-04-07T10:16:42.726699-06:00","level":"INFO","msg":"sender: started","stream_id":"ie2ggjot"}
+{"time":"2025-04-07T10:16:43.0455421-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T10:16:43.2285205-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:44.7659557-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:44.7689787-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:45.9599468-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:46.9892198-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T10:16:48.8058792-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T10:16:48.80822-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T10:16:48.80822-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T10:16:49.3963888-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T10:16:49.8150018-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.418613}],"total_operations":1}}
+{"time":"2025-04-07T10:16:50.8985984-06:00","level":"INFO","msg":"stream: closing","id":"ie2ggjot"}
+{"time":"2025-04-07T10:16:50.8985984-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ie2ggjot"}}
+{"time":"2025-04-07T10:16:50.8985984-06:00","level":"INFO","msg":"sender: closed","stream_id":"ie2ggjot"}
+{"time":"2025-04-07T10:16:50.8985984-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ie2ggjot"}}
+{"time":"2025-04-07T10:16:50.8995413-06:00","level":"INFO","msg":"stream: closed","id":"ie2ggjot"}

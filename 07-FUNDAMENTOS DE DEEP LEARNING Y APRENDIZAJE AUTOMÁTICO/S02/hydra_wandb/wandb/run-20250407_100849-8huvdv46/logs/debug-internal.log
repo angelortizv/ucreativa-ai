@@ -1,0 +1,7 @@
+{"time":"2025-04-07T10:08:49.0860499-06:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-04-07T10:08:49.0860499-06:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\PC MASTER\\desktop\\ucreativa-ai\\07-FUNDAMENTOS DE DEEP LEARNING Y APRENDIZAJE AUTOMÁTICO\\S02\\hydra_wandb\\wandb\\run-20250407_100849-8huvdv46\\logs\\debug-core.log"}
+{"time":"2025-04-07T10:08:49.3945592-06:00","level":"INFO","msg":"created new stream","id":"8huvdv46"}
+{"time":"2025-04-07T10:08:49.3945592-06:00","level":"INFO","msg":"stream: started","id":"8huvdv46"}
+{"time":"2025-04-07T10:08:49.3945592-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"8huvdv46"}}
+{"time":"2025-04-07T10:08:49.3945592-06:00","level":"INFO","msg":"sender: started","stream_id":"8huvdv46"}
+{"time":"2025-04-07T10:08:49.3945592-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"8huvdv46"}}
