@@ -1,0 +1,5 @@
+📋 Registro de usuarios procesado por el bot:
+
+1. Nombre: Ana, Correo: ana@example.com
+2. Nombre: Luis, Correo: luis@example.com
+3. Nombre: Carlos, Correo: carlos@example.com
